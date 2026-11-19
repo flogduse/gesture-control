@@ -1,5 +1,6 @@
-# 0.10.30+ are the first builds with CPython 3.13 wheels; 0.10.x keeps the
-# legacy mp.solutions API that app/main.py uses (1.x moves to Tasks-only)
+# 0.10.30+ are the first builds with CPython 3.13 wheels. app/main.py uses the
+# current MediaPipe Tasks API (mp.tasks.python.vision), not the removed
+# legacy mp.solutions one.
 mediapipe==0.10.35
 opencv-python==4.12.0.88
 pycaw==20240210
